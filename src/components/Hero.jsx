@@ -8,7 +8,8 @@ const Hero = () => {
                 <p className="text-xl">Unique sequencing and production</p>
                 <h1 className="py-3 text-5xl md:text-6xl font-bold">Cloud management</h1>
                 <p className="text-2xl">This is our tech brand</p>
-                <button className="py-2 px-5 my-3">Get Started</button>
+                <button className="py-2 px-5 my-3 text-white border bg-indigo-600 border-indigo-600
+    hover:bg-transparent hover:text-indigo-600 rounded-md ">Get Started</button>
             </div>
 
             <div className="">

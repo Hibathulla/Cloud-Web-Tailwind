@@ -22,7 +22,7 @@ const Navbar = () => {
                     <button className="border-none text-[black] bg-transparent mr-4">Sign In</button>
                     <button className="px-8 py-2">Sign Up</button>
                 </div>
-                <div className="md:hidden" onClick={() => setOpen(!open)}>
+                <div className="md:hidden mr-4" onClick={() => setOpen(!open)}>
            {open ? <XIcon className="w-7" /> : <MenuIcon className="w-7" />}
                 </div>
             </div>
