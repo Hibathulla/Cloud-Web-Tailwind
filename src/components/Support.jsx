@@ -1,4 +1,4 @@
-import {PhoneIcon, ArrowRightIcon, AcademicCapIcon, } from "@heroicons/react/outline"
+import {PhoneIcon, ArrowRightIcon} from "@heroicons/react/outline"
 import {ChipIcon, SupportIcon} from "@heroicons/react/outline"
 
 import support from "../assets/support.jpg"
