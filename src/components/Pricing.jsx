@@ -2,7 +2,7 @@ import {CheckIcon} from "@heroicons/react/solid"
 
 const Pricing = () => {
     return (
-        <section id="pricing" className="my-24">
+        <section name="pricing" className="my-24">
 
             <div className="absolute mix-blend-overlay w-full h-[600px] bg-slate-900"></div>
                 <div className="text-center py-6 text-white px-3">
@@ -11,7 +11,7 @@ const Pricing = () => {
                     <p className="text-slate-400 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptate vel? Officia doloremque, eaque a distinctio rem expedita cum. Aspernatur in libero atque molestias. Quae ullam quasi fugit eaque saepe?</p>
                 </div>
 
-            <div className="grid md:grid-cols-2 py-7">
+            <div className="grid md:grid-cols-2 py-7 gap-y-5">
                 <div className="bg-white w-[90%] mx-auto px-4 py-5 rounded-xl shadow-xl ">
                     <span className="uppercase w-28 bg-indigo-200 text-indigo-900 rounded-xl px-3 py-1 font-medium text-sm">standard</span>
                     <div className="py-5">
@@ -32,7 +32,7 @@ const Pricing = () => {
                <div className="bg-white w-[90%] mx-auto px-4 py-5 rounded-xl shadow-xl ">
                     <span className="uppercase w-28 bg-indigo-200 text-indigo-900 rounded-xl px-3 py-1 font-medium text-sm">standard</span>
                     <div className="py-5">
-                        <h1 className="text-5xl inline font-bold">$49</h1><span className="inline">/mo</span>
+                        <h1 className="text-5xl inline font-bold">$99</h1><span className="inline">/mo</span>
                     </div>
                     <p className="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, nostrum accusantium.</p>
 
