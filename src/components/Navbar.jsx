@@ -20,7 +20,7 @@ const Navbar = () => {
                 </div>
                 <div className=" hidden md:flex pr-4">
                     <button className="border-none text-[black] bg-transparent mr-4">Sign In</button>
-                    <button className="px-6 py-2 bg-indigo-600 border hover:bg-transparent text-white font-bold rounded-md">Sign Up</button>
+                    <button className="px-6 py-2 bg-indigo-600 border-2 border-indigo-600 hover:bg-transparent text-white hover:text-indigo-600 font-bold rounded-md">Sign Up</button>
                 </div>
                 <div className="md:hidden mr-4" onClick={() => setOpen(!open)}>
            {open ? <XIcon className="w-7" /> : <MenuIcon className="w-7" />}

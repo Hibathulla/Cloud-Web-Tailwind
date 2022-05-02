@@ -30,7 +30,7 @@ const Footer = () => {
                     <p className="text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, quidem.</p>
                     <form action="" className="flex pt-4 gap-x-4 flex-col justify-center items-baseline md:flex-row">
                         <input type="text" placeholder="Enter your email" className="mb-4 w-full text-xl rounded-md px-4 py-2" />
-                        <button className="bg-indigo-600 self-stretch px-6 py-2 text-xl font-bold rounded-lg">Subscribe</button>
+                        <button className="bg-indigo-600 self-stretch px-6 py-2 text-xl border-2 border-indigo-600 hover:bg-transparent font-bold rounded-lg">Subscribe</button>
                     </form>
                 </div>
                
